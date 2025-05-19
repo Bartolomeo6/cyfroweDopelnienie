@@ -1,0 +1,5 @@
+<form #form="ngForm" (ngSubmit)="cyfroweDopelnienie(liczba)">
+    Podaj liczbę: <input type="text" name="liczba" id="" [(ngModel)]="liczba"><br>
+    <input type="submit" value="Wyślij">
+</form>
+<p>Cyfrowe dopełnienie liczby {{liczba}} wynosi: {{cyfry}}</p>
